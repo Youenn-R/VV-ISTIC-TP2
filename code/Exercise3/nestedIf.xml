@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset xmlns="https://pmd.github.io/ruleset/2.0.0"
+         name="Nested if"
+         description="Custom ruleset to detect nested if statements">
+
+         <rule name="NestedIf"
+               language="java"
+               message="Too much nested if, please consider to remove some or simplify it."
+               class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+            <description>
+
+            </description>
+            <properties>
+               <property name="xpath">
+                  <value>
+         <![CDATA[
+         //IfStatement[ancestor::IfStatement[ancestor::IfStatement]]
+         ]]>
+                  </value>
+               </property>
+            </properties>
+         </rule>
+
+</ruleset>

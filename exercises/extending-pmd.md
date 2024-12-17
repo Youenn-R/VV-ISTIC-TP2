@@ -23,3 +23,5 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+- Une alerte pour commons-math seulement il s'agit d'un faux positif car pmd a déecter un else if comme un nested if.
+- Les autres librairies comportent de nombreux avertissements de cette règle customisée. Nous pouvons remarquer en nous penchant sur certaines que certaines sont des faux positifs liés aux else if. Mais nous pouvons aussi trouver quelques vrais positifs comme dans le GnuParser.java de commons-cli qui contient de nombreux if. 

@@ -1,0 +1,1 @@
+../commons-math/src/userguide/java/org/apache/commons/math4/userguide/genetics/Polygon.java:97:	NestedIf:	Too much nested if, please consider to remove some or simplify it.
