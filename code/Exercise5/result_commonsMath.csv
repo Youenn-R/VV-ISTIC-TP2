@@ -1,0 +1,95 @@
+Package,Class,Method,Parameters,Cyclomatic Complexity
+org.apache.commons.math4.userguide,FastMathTestPerformance,main,[String[] args],0
+org.apache.commons.math4.userguide,FastMathTestPerformance,report,[String name  long strictMathTime  long fastMathTime  long mathTime],0
+org.apache.commons.math4.userguide,FastMathTestPerformance,assertTrue,[boolean condition],0
+org.apache.commons.math4.userguide,FastMathTestPerformance,testLog,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testLog10,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testLog1p,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testPow,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testExp,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testSin,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testAsin,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testCos,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testAcos,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testTan,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testAtan,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testAtan2,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testHypot,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testIEEEremainder,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testCbrt,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testSqrt,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testCosh,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testSinh,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testTanh,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testExpm1,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testAbs,[],3
+org.apache.commons.math4.userguide,FastMathTestPerformance,testSimpleBenchmark,[],0
+org.apache.commons.math4.userguide,ClusterAlgorithmComparison,makeCircles,[int samples  boolean shuffle  double noise  double factor  UniformRandomProvider rng],1
+org.apache.commons.math4.userguide,ClusterAlgorithmComparison,makeMoons,[int samples  boolean shuffle  double noise  UniformRandomProvider rng],2
+org.apache.commons.math4.userguide,ClusterAlgorithmComparison,makeBlobs,[int samples  int centers  double clusterStd  double min  double max  boolean shuffle  UniformRandomProvider rng],3
+org.apache.commons.math4.userguide,ClusterAlgorithmComparison,makeRandom,[int samples],1
+org.apache.commons.math4.userguide,ClusterAlgorithmComparison,generateNoiseVector,[ContinuousDistribution.Sampler distribution],0
+org.apache.commons.math4.userguide,ClusterAlgorithmComparison,normalize,[final List<Vector2D> input  double minX  double maxX  double minY  double maxY],0
+org.apache.commons.math4.userguide,ClusterAlgorithmComparison,main,[String[] args],0
+org.apache.commons.math4.userguide,ClusterPlot,paintComponent,[Graphics g],0
+org.apache.commons.math4.userguide,ClusterPlot,getPreferredSize,[],0
+org.apache.commons.math4.userguide,ClusterPlot,transform,[Clusterable point  int width  int height],0
+org.apache.commons.math4.userguide,ExampleUtils,showExampleFrame,[final ExampleFrame frame],0
+org.apache.commons.math4.userguide,ExampleUtils,getScreenShot,[Component component],0
+org.apache.commons.math4.userguide,ExampleUtils,resizeImage,[BufferedImage originalImage  int width  int height  int type],0
+org.apache.commons.math4.userguide,ExampleFrame,getMainPanel,[],0
+org.apache.commons.math4.userguide,LowDiscrepancyGeneratorComparison,makeCircle,[int samples  final RandomVectorGenerator generator],1
+org.apache.commons.math4.userguide,LowDiscrepancyGeneratorComparison,makeRandom,[int samples  RandomVectorGenerator generator],1
+org.apache.commons.math4.userguide,LowDiscrepancyGeneratorComparison,normalize,[final List<Vector2D> input],0
+org.apache.commons.math4.userguide,LowDiscrepancyGeneratorComparison,main,[String[] args],0
+org.apache.commons.math4.userguide,Plot,paintComponent,[Graphics g],0
+org.apache.commons.math4.userguide,Plot,getPreferredSize,[],0
+org.apache.commons.math4.userguide,Plot,transform,[Vector2D point  int width  int height],0
+org.apache.commons.math4.userguide.genetics,Polygon,randomPolygon,[int length],1
+org.apache.commons.math4.userguide.genetics,Polygon,mutate,[float mutationRate  float mutationAmount],1
+org.apache.commons.math4.userguide.genetics,Polygon,draw,[Graphics2D g  int width  int height],1
+org.apache.commons.math4.userguide.genetics,PolygonChromosome,setRefImage,[BufferedImage ref],0
+org.apache.commons.math4.userguide.genetics,PolygonChromosome,setTestImage,[BufferedImage image],0
+org.apache.commons.math4.userguide.genetics,PolygonChromosome,checkValidity,[List<Polygon> chromosomeRepresentation],0
+org.apache.commons.math4.userguide.genetics,PolygonChromosome,newFixedLengthChromosome,[List<Polygon> chromosomeRepresentation],0
+org.apache.commons.math4.userguide.genetics,PolygonChromosome,getPolygonRepresentation,[],0
+org.apache.commons.math4.userguide.genetics,PolygonChromosome,fitness,[],1
+org.apache.commons.math4.userguide.genetics,PolygonChromosome,draw,[Graphics2D g  int width  int height],0
+org.apache.commons.math4.userguide.genetics,PolygonChromosome,toString,[],0
+org.apache.commons.math4.userguide.genetics,PolygonChromosome,randomChromosome,[int polygonLength  int polygonCount],1
+org.apache.commons.math4.userguide.genetics,ImageEvolutionExample,main,[String[] args],0
+org.apache.commons.math4.userguide.genetics,ImageEvolutionExample,resizeImage,[BufferedImage originalImage  int width  int height  int type],0
+org.apache.commons.math4.userguide.genetics,ImageEvolutionExample,getInitialPopulation,[],1
+org.apache.commons.math4.userguide.genetics,Display,isAlive,[],0
+org.apache.commons.math4.userguide.genetics,Display,stopRequest,[],0
+org.apache.commons.math4.userguide.genetics,Display,startEvolution,[],0
+org.apache.commons.math4.userguide.genetics,RandomPolygonMutation,mutate,[Chromosome chromosome],0
+org.apache.commons.math4.userguide.genetics,HelloWorldExample,main,[String[] args],0
+org.apache.commons.math4.userguide.genetics,HelloWorldExample,randomRepresentation,[int length],0
+org.apache.commons.math4.userguide.genetics,HelloWorldExample,asList,[String str],0
+org.apache.commons.math4.userguide.genetics,HelloWorldExample,getInitialPopulation,[],1
+org.apache.commons.math4.userguide.genetics,StringChromosome,fitness,[],1
+org.apache.commons.math4.userguide.genetics,StringChromosome,checkValidity,[List<Character> repr],0
+org.apache.commons.math4.userguide.genetics,StringChromosome,getStringRepresentation,[],0
+org.apache.commons.math4.userguide.genetics,StringChromosome,newFixedLengthChromosome,[List<Character> repr],0
+org.apache.commons.math4.userguide.genetics,StringChromosome,toString,[],0
+org.apache.commons.math4.userguide.filter,ConstantVoltageExample,constantVoltageTest,[Chart chart1  Chart chart2],1
+org.apache.commons.math4.userguide.filter,ConstantVoltageExample,createChart,[String title  int width  int height  LegendPosition position  boolean legendVisible],0
+org.apache.commons.math4.userguide.filter,ConstantVoltageExample,createComponent,[],0
+org.apache.commons.math4.userguide.filter,ConstantVoltageExample,main,[String[] args],0
+org.apache.commons.math4.userguide.filter,VoltMeter,getVoltage,[],0
+org.apache.commons.math4.userguide.filter,VoltMeter,getMeasuredVoltage,[],0
+org.apache.commons.math4.userguide.filter,VoltMeter,step,[],0
+org.apache.commons.math4.userguide.filter,Display,getMainPanel,[],0
+org.apache.commons.math4.userguide.filter,CannonballExample,cannonballTest,[Chart chart],1
+org.apache.commons.math4.userguide.filter,CannonballExample,createChart,[String title  LegendPosition position],0
+org.apache.commons.math4.userguide.filter,CannonballExample,createComponent,[],0
+org.apache.commons.math4.userguide.filter,CannonballExample,main,[String[] args],0
+org.apache.commons.math4.userguide.filter,Cannonball,getX,[],0
+org.apache.commons.math4.userguide.filter,Cannonball,getY,[],0
+org.apache.commons.math4.userguide.filter,Cannonball,getMeasuredX,[],0
+org.apache.commons.math4.userguide.filter,Cannonball,getMeasuredY,[],0
+org.apache.commons.math4.userguide.filter,Cannonball,getXVelocity,[],0
+org.apache.commons.math4.userguide.filter,Cannonball,getYVelocity,[],0
+org.apache.commons.math4.userguide.filter,Cannonball,step,[],2
+org.apache.commons.math4.userguide.filter,Display,getMainPanel,[],0

@@ -9,6 +9,7 @@ import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.utils.SourceRoot;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -28,11 +29,13 @@ public class Main {
         }
 
         SourceRoot root = new SourceRoot(file.toPath());
-        PublicElementsPrinter printer = new PublicElementsPrinter();
+        CyclomaticComplexityGrader grader = new CyclomaticComplexityGrader();
         root.parse("", (localPath, absolutePath, result) -> {
-            result.ifSuccessful(unit -> unit.accept(printer, null));
+            result.ifSuccessful(unit -> unit.accept(grader, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
+        // ferme proprement l'écriture
+        grader.closeWriter();
     }
 
 
